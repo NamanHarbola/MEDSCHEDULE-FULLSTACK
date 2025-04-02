@@ -10,7 +10,7 @@ export default {
         'auto': 'repeat(auto-fill, minmax(200px, 1fr))'
       },
       colors: {
-        'emerald-500': '#10B981', // Changed to green (Emerald-500)
+        primary: '#10B981', // Changed to green (Emerald-500)
       }
     },
   },
