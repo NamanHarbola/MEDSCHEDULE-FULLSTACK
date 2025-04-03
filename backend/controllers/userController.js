@@ -12,7 +12,7 @@ import razorpay from 'razorpay';
 const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY)
 const razorpayInstance = new razorpay({
     key_id: process.env.RAZORPAY_KEY_ID,
-    key_secret: process.env.RAZORPAY_KEY_SECRET
+    key_secret: process.env.RAZORPAY_KEY_SECRET,
 })
 
 // API to register user
@@ -234,6 +234,7 @@ const listAppointment = async (req, res) => {
         res.json({ success: false, message: error.message })
     }
 }
+
 // API to make payment of appointment using razorpay
 const paymentRazorpay = async (req, res) => {
     try {
