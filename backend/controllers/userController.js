@@ -234,6 +234,14 @@ const listAppointment = async (req, res) => {
         res.json({ success: false, message: error.message })
     }
 }
+<<<<<<< HEAD
+=======
+const razorpayInstance = new razorpay({
+key_id: process.env.RAZORPAY_KEY_ID,
+key_secret: process.env.RAZORPAY_KEY_SECRET,
+})
+
+>>>>>>> b6e654cb440183993764f0a9bbbffe42f91130f5
 // API to make payment of appointment using razorpay
 const paymentRazorpay = async (req, res) => {
     try {
