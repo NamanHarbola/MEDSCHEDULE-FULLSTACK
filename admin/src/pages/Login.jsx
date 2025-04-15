@@ -92,6 +92,11 @@ const Login = () => {
         setToken(data.token);
         localStorage.setItem(tokenKey, data.token);
         toast.success(`Welcome, ${loginType}!`);
+        if (loginType === 'Admin') {
+          window.location.href = 'https://medschedule-fullstack-admin.onrender.com/admin-dashboard'; 
+        } else {
+         window.location.href = 'https://medschedule-fullstack-admin.onrender.com/doctor-dashboard';
+        }
       } else {
         toast.error(data.message);
       }
