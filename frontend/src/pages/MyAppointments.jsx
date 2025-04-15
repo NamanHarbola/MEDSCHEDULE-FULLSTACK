@@ -116,7 +116,6 @@ const MyAppointments = () => {
     }
 
 
-
     useEffect(() => {
         if (token) {
             getUserAppointments()
@@ -158,5 +157,4 @@ const MyAppointments = () => {
         </div>
     )
 }
-
 export default MyAppointments
