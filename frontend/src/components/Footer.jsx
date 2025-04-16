@@ -29,10 +29,8 @@ const Footer = () => {
             <li>+91 8178946367</li>
             <li>Anushka Saxena</li>
             <li>anushkasaxena0906@gmail.com</li>
-            <li> +91 9643569565</li>
             <li>Preeti Singh</li>
             <li>preetisingh@gmail.com</li>
-            <li> +91 98214 24204</li>
           </ul>
         </div>
 
