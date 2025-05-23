@@ -27,10 +27,6 @@ const Footer = () => {
             <li>Naman Harbola</li>
             <li>namanharbola3@gmail.com</li>
             <li>+91 8178946367</li>
-            <li>Anushka Saxena</li>
-            <li>anushkasaxena0906@gmail.com</li>
-            <li>Preeti Singh</li>
-            <li>preetisingh@gmail.com</li>
           </ul>
         </div>
 
